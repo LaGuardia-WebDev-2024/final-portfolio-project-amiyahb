@@ -23,9 +23,9 @@ Select ONE Additional Feature to Add
       /* Styling Only Related To THIS Page */
       /*~~~~~ Taken From:
       https://www.w3schools.com/howto/howto_css_parallax.asp*/
-      .parallax {
+      body {
         /* The image used */
-        background-image: url("CS_Ed_Week_2025.jpg");
+        background-image: url("https://64.media.tumblr.com/7e5be0b460f1404bfbf24807efa95f04/5bdfeadfc689526d-6d/s400x600/a87a377cee60d959ae9560c588ec691a2da470db.gif");
 
         /* Set a specific height */
         min-height: 500px;
@@ -54,6 +54,33 @@ Select ONE Additional Feature to Add
         display: flex;
         align-items: center;
       }
+
+
+ /* Create the parallax scrolling effect */
+        background-attachment: fixed;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+      }
+      .textblock {
+        min-height: 500px;
+        background-color: black;
+        color: white;
+      }
+      .parent-flex {
+        display: flex;
+      }
+      .child-flex {
+        background-color: green;
+        margin: 30px;
+        padding: 10px;
+        text-align: justify;
+      }
+      .para-1{
+        display: flex;
+        align-items: center;
+      }
+
     </style>
   </head>
   <body>
@@ -80,32 +107,9 @@ Select ONE Additional Feature to Add
     </ul>
 
     <!-- ⬇⬇⬇⬇⬇⬇ Main Page Content -->
-    <h1>Ms. Hall | Web Dev 2025-2026</h1>
+    <h1>Amiyah Black</h1>
     <div class="parallax"></div>
 
-    <div class="textblock parent-flex">
-      <div class="child-flex para-1">
-        <p>
-          Lorem ipsum dolor sit amet consectetur adipiscing elit. Quisque
-          faucibus ex sapien vitae pellentesque sem placerat. In id cursus mi
-          pretium tellus duis convallis. Tempus leo eu aenean sed diam urna
-          tempor. Pulvinar vivamus fringilla lacus nec metus bibendum egestas.
-          Iaculis massa nisl malesuada lacinia integer nunc posuere. Ut
-          hendrerit semper vel class aptent taciti sociosqu. Ad litora torquent
-          per conubia nostra inceptos himenaeos.
-        </p>
-      </div>
-      <div class="child-flex">
-        <p>
-          Lorem ipsum dolor sit amet consectetur adipiscing elit. Quisque
-          faucibus ex sapien vitae pellentesque sem placerat. In id cursus mi
-          pretium tellus duis convallis. Tempus leo eu aenean sed diam urna
-          tempor. Pulvinar vivamus fringilla lacus nec metus bibendum egestas.
-          Iaculis massa nisl malesuada lacinia integer nunc posuere. Ut
-          hendrerit semper vel class aptent taciti sociosqu. Ad litora torquent
-          per conubia nostra inceptos himenaeos.
-        </p>
-      </div>
-    </div>
+   
   </body>
 </html>
